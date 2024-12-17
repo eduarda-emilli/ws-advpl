@@ -34,8 +34,8 @@ User Function Arrays()
     Local aTabela := Array(2, 4, Space(05))
 
     // 4 - Recebendo a referência de outro array
-    Local aCores2 := aCores
+    /*  */Local aCores2 := aCores
 
     // 5- Recebendo a cópia de outro array
-    Local aCores3 := AClone(aCores)
+   /*  Local aCores3 := AClone(aCores) */
 Return
