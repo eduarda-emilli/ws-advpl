@@ -73,8 +73,11 @@
 		},
 		{
 			"label": "U_Logicos"
+		},
+		{
+			"label": "U_Ex01"
 		}
 	],
-	"lastProgramExecuted": "U_Logicos",
+	"lastProgramExecuted": "U_Ex01",
 	"lastProgramArguments": []
 }
