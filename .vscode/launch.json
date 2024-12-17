@@ -82,8 +82,11 @@
 		},
 		{
 			"label": "U_Decisao"
+		},
+		{
+			"label": "U_Decisao2"
 		}
 	],
-	"lastProgramExecuted": "U_Decisao",
+	"lastProgramExecuted": "U_Decisao2",
 	"lastProgramArguments": []
 }

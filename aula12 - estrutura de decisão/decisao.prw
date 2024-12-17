@@ -44,4 +44,5 @@ Static Function TesteSe(cResult)
         lRet := .F.
         cResult := "Limite de crédito vencido"
     EndIf
+    
 Return
