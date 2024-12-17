@@ -1,0 +1,80 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\TOTVS12_33\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"extendFeatures": {
+				"charDetails": false
+			},
+			"programArguments": [],
+			"enableMultiThread": false,
+			"enableProfile": false,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"openglMode": false,
+			"dpiMode": false,
+			"olddpiMode": false,
+			"language": "",
+			"ignoreFiles": false
+		}
+	],
+	"lastPrograms": [
+		{
+			"label": "U_zAula10"
+		},
+		{
+			"label": "U_aula01"
+		},
+		{
+			"label": "func2"
+		},
+		{
+			"label": "u_func3"
+		},
+		{
+			"label": "u_VarTipos"
+		},
+		{
+			"label": "u_func1"
+		},
+		{
+			"label": "u_VldVenda"
+		},
+		{
+			"label": "u_Do_Case"
+		},
+		{
+			"label": "u_ExerWhile"
+		},
+		{
+			"label": "u_ExerFor"
+		},
+		{
+			"label": "u_MinhaPrimeiraTela"
+		},
+		{
+			"label": "SIGAADV"
+		},
+		{
+			"label": "U_numeros"
+		},
+		{
+			"label": "U_Strings"
+		},
+		{
+			"label": "U_Datas"
+		},
+		{
+			"label": "U_Logicos"
+		}
+	],
+	"lastProgramExecuted": "U_Logicos",
+	"lastProgramArguments": []
+}
