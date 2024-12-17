@@ -12,12 +12,13 @@ Funções Datas em ADVPL
 User Function Ex01()
 
     Local dDataAtual := Date()
-    Local cData
+    Local cData := ""
 
-    /* Converte a data para string no formato padrão */
-    cData = Transform(dDataAtual, "@D")   // && A função Transform converte o valor para string no formato desejado
+    cData := DToC(dDataAtual)
 
-    Alert("A data de hoje é: " + cData)
+    // Converta um texto no formato "DD/MM/AAAA" para data e mostre o dia da semana do mesmp
+    dDataRes := SToD("31122022")
+    
 
 Return
 
