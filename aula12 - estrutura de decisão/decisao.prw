@@ -45,4 +45,10 @@ Static Function TesteSe(cResult)
         cResult := "Limite de crédito vencido"
     EndIf
     
+    // Se e SeNão
+    If nLimCred > 0
+        cResult := "Limite de crédito vencido"
+    Else
+        cResult := "Limite de outra loja será consumido"
+    EndIf
 Return
