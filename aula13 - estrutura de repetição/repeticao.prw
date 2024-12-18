@@ -11,6 +11,20 @@ Estrutura de Repetição em AdvPL
 
 User Function Repeticao()
 
-    
+    Local nI := 0
+    Local aNomes := {}
+
+    AAdd(aNomes,"Eduarda")
+    AAdd(aNomes,"Maria")
+    AAdd(aNomes,"Giovanna")
+    AAdd(aNomes,"Ana")
+    AAdd(aNomes,"Fernanda")
+
+        Alert(aNomes[1])
+        Alert(aNomes[2])
+        Alert(aNomes[3])
+        Alert(aNomes[4])
+        Alert(aNomes[5])
+
 
 Return
