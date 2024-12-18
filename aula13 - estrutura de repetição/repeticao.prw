@@ -18,13 +18,16 @@ User Function Repeticao()
     AAdd(aNomes,"Maria")
     AAdd(aNomes,"Giovanna")
     AAdd(aNomes,"Ana")
+    AAdd(aNomes,"Gabriela")
+    AAdd(aNomes,"Marieta")
     AAdd(aNomes,"Fernanda")
-
+    
         Alert(aNomes[1])
         Alert(aNomes[2])
         Alert(aNomes[3])
         Alert(aNomes[4])
         Alert(aNomes[5])
-
+        Alert(aNomes[6])
+        Alert(aNomes[7])
 
 Return
