@@ -19,6 +19,6 @@ User Function xParambox()
     //[8]-Tamanho do MsGet
     //[9]-Flag .T./.F. Parametro Obrigatorio ?
 
-    aAdd(aParambox,{})
+    aAdd(aParambox,{2"Informe o mês",1, aResp, 50,"",.F.})
 
 Return
