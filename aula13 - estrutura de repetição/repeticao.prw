@@ -25,11 +25,13 @@ User Function Repeticao()
     // Estrutura de Repetição While
     While nI <= Len(aNomes)
         Alert(aNomes[nI])
-        nI++
+        
 
         If nI == 2
             Exit
         EndIf
+
+        nI++
         
     EndDo
 
