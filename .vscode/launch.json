@@ -94,8 +94,11 @@
 		},
 		{
 			"label": "U_zMiniForm"
+		},
+		{
+			"label": "U_edrm"
 		}
 	],
-	"lastProgramExecuted": "U_zMiniForm",
+	"lastProgramExecuted": "U_edrm",
 	"lastProgramArguments": []
 }
