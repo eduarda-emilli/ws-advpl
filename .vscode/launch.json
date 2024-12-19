@@ -88,8 +88,17 @@
 		},
 		{
 			"label": "U_Repeticao"
+		},
+		{
+			"label": "U_Ex03"
+		},
+		{
+			"label": "U_zMiniForm"
+		},
+		{
+			"label": "U_edrm"
 		}
 	],
-	"lastProgramExecuted": "U_Repeticao",
+	"lastProgramExecuted": "U_edrm",
 	"lastProgramArguments": []
 }
