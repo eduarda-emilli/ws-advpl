@@ -9,4 +9,4 @@ User Function edrm()
     Alert(oPessoa:cNomePerson)
     Alert(DToC(oPessoa:dNascimento))
 
-Return
+Return self

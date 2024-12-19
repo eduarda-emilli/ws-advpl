@@ -9,6 +9,8 @@ Class Pessoa
     Data cNomePerson
     Data dNascimento
 
+    Me
+
     Method New(cNomePerson, dNascimento) Constructor
         
 EndClass
