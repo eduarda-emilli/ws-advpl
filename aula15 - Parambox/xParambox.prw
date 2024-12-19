@@ -5,7 +5,7 @@ User Function xParambox()
 
     Local aPergs := {}
     Local aResps := {}
-    Local aOpods {"1 - Ruim", "2 - Regular", "3-Bom", "4-Ótimo"}
+   /*  Local aOpods {"1 - Ruim", "2 - Regular", "3-Bom", "4-Ótimo"} */
 
     
     aAdd(aParambox,{1,"Data", CToD(Space(8)),"","","","",50,.F.}) // Tipo data
@@ -19,6 +19,6 @@ User Function xParambox()
     //[8]-Tamanho do MsGet
     //[9]-Flag .T./.F. Parametro Obrigatorio ?
 
-    aAdd(aParambox,{2"Informe o mês",1, aResp, 50,"",.F.}) 
+
 
 Return
