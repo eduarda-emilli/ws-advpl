@@ -9,7 +9,7 @@ Operadores da Linguagem ADVPL
 User Function Operadores()
     Local nNum1     := 10
     Local nNum2     := 2
-    Local nNum3     := 5
+    /* Local nNum3     := 5
     Local nNum4     := 7
     Local nResp     := 0
     Local cTexto1   := ""
@@ -17,7 +17,7 @@ User Function Operadores()
     Local cResposta := ""
     Local cAliasTop := ""
     Local lResposta := .T.
-    Local aNomes    := {"João", "Maria", "Pedro"}
+    Local aNomes    := {"João", "Maria", "Pedro"} */
 
 // Matemáticos
 nResp := nNum1 + nNum2 // soma

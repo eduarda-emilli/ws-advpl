@@ -27,17 +27,17 @@ Return
 
 Static Function TesteSe(cResult)
 
-    Local cRisco :="B"
+   /*  Local cRisco :="B" */
     Local nLimCred := 15000
     Local dLimVenc := CToD("31/12/2024")
-    Local nVlrPed := 3500
+    /* Local nVlrPed := 3500
     Local bSalDup := 7000
     Local nPedLib := 4000
     Local nSaldoCli := 0
     Local lRet := .T.
     Local lAvalia := .T.
     Local lAprov := .T.
-    Local lAvista := .F.
+    Local lAvista := .F. */
 
     // Se
     If ! (Date() <- dLimVenc)

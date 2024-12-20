@@ -14,7 +14,7 @@ User Function Bloco()
     Local cTeste    := "Teste de bloco de código"
     Local nNum1     := 10
     Local nNum2     := 30
-    Local cResult   := 0
+    /* Local cResult   := 0 */
     Local aNumeros  := {4,3}
     Local bBloco1   := {|| cTeste}
     Local bBloco2   := {|| nNum1 + nNum2}
