@@ -1,4 +1,4 @@
-a#include "Protheus.ch"
+#include "Protheus.ch"
 
 /* {Protheus.ch} Strings
 Strings em AdvPl - Aula 08
@@ -15,7 +15,7 @@ User Function Strings()
     Local nAt       := 0 
     Local nRat      := 0
     Local lResp     := .T.
-    Local nResp     := 
+/*     Local nResp     :=  */
     Local aResp     := {}
 
     // Concatenar 2 textos
