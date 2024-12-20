@@ -4,7 +4,7 @@
 /*{Protheus.doc} Repeticao
 Estrutura de Repetição em AdvPL
 @author Eduarda Emilli
-@since      18/12/2024
+@since      20/12/2024 09:31
 @version    12/superior
 */
 
@@ -35,12 +35,13 @@ User Function Repeticao()
     EndDo
 
     // Estrutura de Repetição For
+    // Len: tamanho do array 
     For nI := 1 To Len(aNomes) // incremento
         Alert(aNomes[nI])
         
-        If nI == 2
+        /* If nI == 2
             Exit
-        EndIf
+        EndIf */
     Next nI
         
 Return
