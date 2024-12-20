@@ -3,12 +3,12 @@
 
 User Function xParambox()
 
-    Local aPergs := {}
-    Local aResps := {}
+   /*  Local aPergs := {}
+    Local aResps := {} */
    /*  Local aOpods {"1 - Ruim", "2 - Regular", "3-Bom", "4-Ótimo"} */
 
     
-    aAdd(aParambox,{1,"Data", CToD(Space(8)),"","","","",50,.F.}) // Tipo data
+    aAdd(aParambox,{1, "Data", CToD(Space(8)),"","","","",50,.F.}) // Tipo data
     //Tipo 1 -> MsGet()
     //[2]-Descricao
     //[3]-String contendo o inicializador do campo
