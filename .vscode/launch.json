@@ -97,8 +97,23 @@
 		},
 		{
 			"label": "U_edrm"
+		},
+		{
+			"label": "SIGACOM"
+		},
+		{
+			"label": "U_IfElse"
+		},
+		{
+			"label": "U_decisao1"
+		},
+		{
+			"label": "U_Operadores"
+		},
+		{
+			"label": "U_EstrFor"
 		}
 	],
-	"lastProgramExecuted": "U_edrm",
+	"lastProgramExecuted": "U_EstrFor",
 	"lastProgramArguments": []
 }

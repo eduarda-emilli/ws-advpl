@@ -4,8 +4,8 @@
 User Function AnoBissexto()
 
     Local aPergs := {}
-    Local aResps := {}
-    Local nAno := 0
+  /*   Local aResps := {}
+    Local nAno := 0 */
 
     aAdd(aPergs, )
 
