@@ -36,7 +36,7 @@ User Function Repeticao()
     EndDo
 
     // Estrutura de Repetição For
-    For nI := 1 To Len(aNomes)
+    For nI := 1 To Len(aNomes) // incremento
         Alert(aNomes[nI])
         
         If nI == 2
