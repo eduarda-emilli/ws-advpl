@@ -109,8 +109,11 @@
 		},
 		{
 			"label": "U_Operadores"
+		},
+		{
+			"label": "U_EstrFor"
 		}
 	],
-	"lastProgramExecuted": "U_Repeticao",
+	"lastProgramExecuted": "U_EstrFor",
 	"lastProgramArguments": []
 }
