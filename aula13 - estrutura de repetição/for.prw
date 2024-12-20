@@ -1,14 +1,31 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
-User Function EstrFor()
+/* 
+Jogar o jogo da forca
+1. Escolher a palavra
+2. Montar o diagrama do jogo
+3. Enquanto houver lacunas vazias e o corpo estiver incompleto:
+3.1. Se acertar a letra: escrever na lacuna correspondente
+3.2. Se errar a letra: desenhar uma parte do corpo na forca
+*/
 
-    Local nCnt
-    Local nSomaPar := 0
-    For nCnt := 0 To 100 Step 2
-    nSomaPar += nCnt
-    Next
-        Alert( "A soma dos 100 primeiros números pares é: " + ;
-            cValToChar(nSomaPar) ) 
 
+User Function Forca()
+
+    Local cPalavra = ""
+
+    if conditions
+        
+    endif
+    
+    
+
+    
 Return
+
+
+/* 
+
+
+ */
