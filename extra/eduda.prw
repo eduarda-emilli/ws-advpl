@@ -5,7 +5,7 @@
 
 User Function edrm() // Função principal
     Local cNome := "Eduarda Emilli"
-    Local dData := CTOD("12/19/2000") // Formato MM/DD/YYYY
+    Local dData := CTOD("28/06/2002") // Formato MM/DD/AAAA
     Local nSld := 1500 // Saldo inicial
     Local oPessoa := Pessoa():New(cNome, dData, nSld) // Instancia a classe Pessoa
 
