@@ -15,3 +15,5 @@ User Function edrm()
     oPessoa:PagarConta(100)
 
 Return self
+
+// 23.12.2024, 10:17 - segunda feira
