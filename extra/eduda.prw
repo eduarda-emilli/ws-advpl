@@ -1,6 +1,8 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
+// 23.12.2024, 10:17 - segunda feira
+
 User Function edrm() // Função principal
     Local cNome := "Eduarda Emilli"
     Local dData := CTOD("12/19/2000") // Formato MM/DD/YYYY
@@ -16,4 +18,4 @@ User Function edrm() // Função principal
 
 Return self // Retorna o próprio objeto
 
-// 23.12.2024, 10:17 - segunda feira
+
