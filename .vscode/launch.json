@@ -127,8 +127,20 @@
 		},
 		{
 			"label": "U_ForNext"
+		},
+		{
+			"label": "U_Vencimento"
+		},
+		{
+			"label": "U_Casos"
+		},
+		{
+			"label": "U_Ex05"
+		},
+		{
+			"label": "U_zTeste"
 		}
 	],
-	"lastProgramExecuted": "U_ForNext",
+	"lastProgramExecuted": "U_zTeste",
 	"lastProgramArguments": []
 }
