@@ -112,8 +112,35 @@
 		},
 		{
 			"label": "U_EstrFor"
+		},
+		{
+			"label": "SIGAESP"
+		},
+		{
+			"label": "U_estrutura2"
+		},
+		{
+			"label": "U_Vetor"
+		},
+		{
+			"label": "U_Ex04"
+		},
+		{
+			"label": "U_ForNext"
+		},
+		{
+			"label": "U_Vencimento"
+		},
+		{
+			"label": "U_Casos"
+		},
+		{
+			"label": "U_Ex05"
+		},
+		{
+			"label": "U_zTeste"
 		}
 	],
-	"lastProgramExecuted": "U_EstrFor",
+	"lastProgramExecuted": "U_zTeste",
 	"lastProgramArguments": []
 }
