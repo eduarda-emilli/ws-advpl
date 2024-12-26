@@ -37,7 +37,13 @@ Return
     
     
     
- 
+ /* Local aArray := {"Ana", "Bianca", "Márcia", "Fernanda", "Bruna"}
+Local i
+
+For i := 1 To Len(aArray) // Len(aArray) retorna o número de elementos
+    MsgInfo(aArray[i])    // Exibe cada elemento do vetor
+Next
+ */
     
     
     

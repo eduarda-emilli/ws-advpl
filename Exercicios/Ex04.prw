@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-/*============================================
-    @author Duda Emilli 20.12.2024              
-    
-    Exercício básico:
-    Crie uma função que declara seu nome e 
-    idade em uma variável                            
-=============================================*/        
-
-User Function MyName()
-
-    Local cNome := "Duda"
-    Local nIdade := 22
-
-    MsgInfo("Meu nome é: " + cNome + " e eu tenho: " + Str(nIdade) + " anos de idade", "Exercício 04") 
-
-Return
-=======
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
@@ -59,4 +41,3 @@ User Function Ex04()
     MsgInfo(aArray1[1][3])
 
 Return
->>>>>>> b9ce1809fe397e9465458b967710cfce0b402e0e
