@@ -118,8 +118,17 @@
 		},
 		{
 			"label": "U_estrutura2"
+		},
+		{
+			"label": "U_Vetor"
+		},
+		{
+			"label": "U_Ex04"
+		},
+		{
+			"label": "U_ForNext"
 		}
 	],
-	"lastProgramExecuted": "SIGAADV",
+	"lastProgramExecuted": "U_ForNext",
 	"lastProgramArguments": []
 }
