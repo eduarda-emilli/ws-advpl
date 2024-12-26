@@ -1,18 +1,21 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
-User Function edrm()
-    Local cNome := "Nome Sobrenome"
-    Local dData := CToD("19/12/2000")
-    Local nSld = 1500
-    Local oPessoa := Pessoa():New(cNome, dData, nSld)
+// 23.12.2024, 10:17 - segunda feira
 
-    Alert(oPessoa:cNomePerson)
-    Alert(DToC(oPessoa:dNascimento))
+User Function edrm() // Função principal
+    Local cNome := "Eduarda Emilli"
+    Local dData := CTOD("28/06/2002") // Formato MM/DD/AAAA
+    Local nSld := 1500 // Saldo inicial
+    Local oPessoa := Pessoa():New(cNome, dData, nSld) // Instancia a classe Pessoa
 
-    oPessoa:PagarConta(700)
+    Alert(oPessoa:cNomePerson) 
+    Alert(DToC(oPessoa:dNascimento)) // Converte data para string
+
+    oPessoa:PagarConta(700) // Chama o método PagarConta
     oPessoa:PagarConta(750)
     oPessoa:PagarConta(100)
 
-    
-Return self
+Return self // Retorna o próprio objeto
+
+

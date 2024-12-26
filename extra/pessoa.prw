@@ -3,14 +3,18 @@
 
 /* 
 Classes para definição de pessoa
- */
+*/
 
 Class Pessoa
-    Data cNomePerson
-    Data dNascimento
+    Data cNomePerson // atributos
+    Data dNascimento // atributos
+
+    Method PagarConta(nValor) // métodos
 
 
-    Method New(cNomePerson, dNascimento) Constructor
+    Method New(cNomePerson, dNascimento) Constructor // dentro dos parênteses são os parâmetros
+        ::cNomePerson := cNomePerson
+        ::dNascimento := dNascimento
         
 EndClass
 
