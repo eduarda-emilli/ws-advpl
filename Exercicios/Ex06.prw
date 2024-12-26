@@ -9,7 +9,5 @@ na variável I, caso não ultrapasse grave 0. */
 User Function Ex06()
 
     Local nMercadoria := 1000000
-    Local 
-
-
+    
 Return
