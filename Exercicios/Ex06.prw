@@ -8,6 +8,4 @@ na variável M o valor da mercadoria e se ultrapassar o valor, calcular o valor d
 na variável I, caso não ultrapasse grave 0. */
 User Function Ex06()
 
-    Local nMercadoria := 1000000
-    
 Return
