@@ -5,32 +5,31 @@
 User Function Ex06()
 
     Local aArray := {}
-    Local i
-    Local Media
+    Local i 
+    Local nMedia
 
      // INDICE
     aAdd(aArray, {"Maria", 10, 7, 15, 31}) // Adiciona os dados no vetor aDados
-    aAdd(aArray, {"José", 15, 16, 21, 33}) // Adiciona os dados no vetor aDados
+    aAdd(aArray, {"Petruncio", 8, 8, 8, 6}) 
+    aAdd(aArray, {"Firmino", 15, 16, 21, 33}) 
+    aAdd(aArray, {"José", 15, 16, 21, 33}) 
+    aAdd(aArray, {"Felizberto", 10, 17, 31, 28}) 
     
     // Mostra os dados
-    For i := 1 To Len(aArray)
+    For i := 1 To Len(aArray)  
         MsgInfo("Nome:" + aArray[i,1] + Chr(13) + ;
-                Media + cValToChar(aArray[i,2]))
-        
-        Media := cValToChar(aArray[i,2] + aArray[i,3] + aArray[i,4] + aArray[i,5]) / 4
+                "Média: " + cValToChar(aArray[i,2] + aArray[i,3] + aArray[i,4] + aArray[i,5] / 4 ))
+            
+            If nMedia < 25
+            MsgInfo("Média: " + cValToChar(nMedia) + Chr(13) + ;
+                    "Status: Aprovado") 
+            ElseIf nMedia > 10 
+                MsgInfo("Status: Reprovado")
+            EndIf
 
-        Alert("Média:" + cValToChar(Media))
-
+                
     Next i
 
-   /*  For i := 1 To Len(aDados) // Para i de 1 até o tamanho do vetor aDados
-        MsgInfo("Nome: " + aDados[i,1] + Chr(13) + ; // Chr(13) é o mesmo que o Enter
-                "Idade: " + cValToChar(aDados[i,2])+chr(13)+; // cValToChar converte o valor para string
-                "Nascimento: " + aDados[i,3]+chr(13)+; // Mostra a data de nascimento
-                "Cidade: " + aDados[i,4]) // Mostra a cidade
-
-                 "Média: " + cValToChar(aArray[i,2] + aArray[i,3] + aArray[i,4] + aArray[i,5]) / 4) + ;
-
-
-    Next i // Próximo */
+   
 Return
+ 
