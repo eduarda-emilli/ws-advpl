@@ -1,13 +1,26 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
-/* Enunciado: Matheus é um homem de negócios e sempre viaja ao exterior e precisa controlar tudo
-que traz de lá. Sempre que ele traz mercadorias que ultrapassam R$ 10.000,00, deve
-ser pago o imposto de 15%. Faça um algoritmo que leia o valor da mercadoria e grave
-na variável M o valor da mercadoria e se ultrapassar o valor, calcular o valor do imposto
-na variável I, caso não ultrapasse grave 0. */
+/* Enunciado: Com base no Array informado mostrar na tela a media de cada aluno: */
 User Function Ex06()
 
-    Local nMercadoria := 1000000
+    Local aArray := {}
+    Local i
+    Local Media
+
+     // INDICE
+    aAdd(aArray, {"Maria", 10, 7, 15, 31}) // Adiciona os dados no vetor aDados
+    aAdd(aArray, {"José", 15, 16, 21, 33}) // Adiciona os dados no vetor aDados
     
+    // Mostra os dados
+    For i := 1 To Len(aArray)
+        MsgInfo("Nome:" + aArray[i,1] + Chr(13) + ;
+                Media + cValToChar(aArray[i,2]))
+        
+        Media := cValToChar(aArray[i,2] + aArray[i,3] + aArray[i,4] + aArray[i,5]) / 4
+
+        Alert("Média:" + cValToChar(Media))
+
+    Next i
+
 Return
