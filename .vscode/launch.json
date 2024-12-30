@@ -145,8 +145,14 @@
 		},
 		{
 			"label": "U_Ex07"
+		},
+		{
+			"label": "U_Ex08"
+		},
+		{
+			"label": "U_Ex09"
 		}
 	],
-	"lastProgramExecuted": "U_Ex07",
+	"lastProgramExecuted": "SIGACOM",
 	"lastProgramArguments": []
 }
