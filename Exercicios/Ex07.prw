@@ -22,6 +22,5 @@ User Function Ex07()
     
     MsgInfo("Valor da mercadora: " + cValToChar(nMercadoria) + Chr(13) + ;
             "Valor do imposto: " + cValToChar(nImposto)) 
-    
-
+            
 Return
