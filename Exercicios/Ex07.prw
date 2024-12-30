@@ -1,14 +1,27 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
-/* Enunciado: Calcule o salário de um funcionário recebendo em uma variável o valor hora 
-e em outra a quantiade de horas. Caso a qtde de horas ultrapasse a meta (180), acrescente 2,00 
-por hora trabalhada e em seguida mostre na tela o salário a receber */
+/* Enunciado: Matheus é um homem de negócios e sempre viaja ao exterior e precisa controlar tudo
+que traz de lá. Sempre que ele traz mercadorias que ultrapassam R$ 10.000,00, deve
+ser pago o imposto de 15%. Faça um algoritmo que leia o valor da mercadoria e grave
+na variável M o valor da mercadoria e se ultrapassar o valor, calcular o valor do imposto
+na variável I, caso não ultrapasse grave 0 */
 
 User Function Ex07()
 
-    Local nHoraTrabalhada := 5
-    Local nHora := 100
+    Local nMercadoria
+    Local nImposto
+
+    nMercadoria := 15000
+
+    If nMercadoria > 100
+        nImposto := nMercadoria * 0.15
+    Else   
+        nImposto := 0
+    EndIf
+    
+    MsgInfo("Valor da mercadora: " + cValToChar(nMercadoria) + Chr(13) + ;
+            "Valor do imposto: " + cValToChar(nImposto)) 
     
 
 Return

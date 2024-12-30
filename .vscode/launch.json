@@ -142,8 +142,11 @@
 		},
 		{
 			"label": "U_Ex06"
+		},
+		{
+			"label": "U_Ex07"
 		}
 	],
-	"lastProgramExecuted": "U_Ex06",
+	"lastProgramExecuted": "U_Ex07",
 	"lastProgramArguments": []
 }
