@@ -30,6 +30,6 @@ User Function Ex06()
                 
     Next i
 
-   
+
 Return
  
