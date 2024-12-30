@@ -13,11 +13,6 @@ User Function Ex05()
     aAdd(aDados, {"José"    ,20,"01/01/1999"    ,"Rio de Janeiro"}) // Adiciona os dados no vetor aDados
     aAdd(aDados, {"Maria"    ,25,"30/05/1995"    ,"São Paulo"}) // Adiciona os dados no vetor aDados
     
-<<<<<<< HEAD
-    
-    
-    
-    
  /* Local aArray := {"Ana", "Bianca", "Márcia", "Fernanda", "Bruna"}
 Local i
 
@@ -26,20 +21,6 @@ For i := 1 To Len(aArray) // Len(aArray) retorna o número de elementos
 Next
  */
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    */ 
-
-=======
     // Mostra os dados
     For i := 1 To Len(aDados) // Para i de 1 até o tamanho do vetor aDados
         MsgInfo("Nome: " + aDados[i,1] + Chr(13) + ; // Chr(13) é o mesmo que o Enter
@@ -51,4 +32,3 @@ Next
 Return 
 
 
-// Exercício 06
