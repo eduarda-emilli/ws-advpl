@@ -22,3 +22,6 @@ User Function Ex05()
     Next i // Próximo
 
 Return 
+
+
+// Exercício 06
