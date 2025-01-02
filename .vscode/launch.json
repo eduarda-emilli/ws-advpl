@@ -154,8 +154,11 @@
 		},
 		{
 			"label": "U_Ex10"
+		},
+		{
+			"label": "U_CadastroClient"
 		}
 	],
-	"lastProgramExecuted": "U_Ex10",
+	"lastProgramExecuted": "U_zMiniForm",
 	"lastProgramArguments": []
 }
