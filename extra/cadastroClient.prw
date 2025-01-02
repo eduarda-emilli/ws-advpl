@@ -13,3 +13,11 @@ dbSetOrder(1)
 AxCadastro(cAlias, cTitulo, cVldExc, cVldAlt)
 
 Return nil 
+
+/* AxCadastro é uma funcionalidade de cadastro simples, com poucas opções de 
+customização a qual a proposta é:
+
+ - Browse padrão
+
+
+ */
