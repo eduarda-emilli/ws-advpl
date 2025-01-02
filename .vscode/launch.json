@@ -139,8 +139,23 @@
 		},
 		{
 			"label": "U_zTeste"
+		},
+		{
+			"label": "U_Ex06"
+		},
+		{
+			"label": "U_Ex07"
+		},
+		{
+			"label": "U_Ex08"
+		},
+		{
+			"label": "U_Ex09"
+		},
+		{
+			"label": "U_Ex10"
 		}
 	],
-	"lastProgramExecuted": "U_zTeste",
+	"lastProgramExecuted": "U_Ex10",
 	"lastProgramArguments": []
 }

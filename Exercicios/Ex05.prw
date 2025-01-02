@@ -1,55 +1,34 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
+/* Enunciado: Fazer Algoritmo que leia um vetor de 3 linhas e 5 colunas e imprima 
+o seu conteúdo na tela, utilizando o que foi visto em vetores e 
+estruturas de repetição. */
 User Function Ex05()
 
-    //Bibliotecas
-#Include "Protheus.ch"
- 
-/*/{Protheus.doc} zTeste
-Função de Teste
-@type function
-@author Terminal de Informação
-@since 13/11/2016
-@version 1.0
-    @example
-    u_zTeste()
-/*/
- 
-User Function zTeste()
-    Local aArea  := GetArea()
-    Local aArray := {}
- 
-    //Adicionando elementos na matriz
-    aAdd(aArray, {"Daniel", 23, "Masculino", "Auxiliar de Escritório"})
-    aAdd(aArray, {"João", 28, "Masculino", "Analista de Sistemas"})
-    aAdd(aArray, {"Gabriel", 21, "Masculino", "Estagiário"})
-   
- 
-    //Mostra o elemento de numero 3, e quantos anos tem
-    Alert(aArray[3][1]+" tem "+cValToChar(aArray[3][2])+" anos.")
- 
-    RestArea(aArea)
-Return
+    Local aDados := {}
+    Local i // Variável de controle do laço
 
+    // INDICE
+    aAdd(aDados, {"José"    ,20,"01/01/1999"    ,"Rio de Janeiro"}) // Adiciona os dados no vetor aDados
+    aAdd(aDados, {"Maria"    ,25,"30/05/1995"    ,"São Paulo"}) // Adiciona os dados no vetor aDados
     
+ /* Local aArray := {"Ana", "Bianca", "Márcia", "Fernanda", "Bruna"}
+Local i
+
+For i := 1 To Len(aArray) // Len(aArray) retorna o número de elementos
+    MsgInfo(aArray[i])    // Exibe cada elemento do vetor
+Next
+ */
     
-    
-    
-    
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    */ 
+    // Mostra os dados
+    For i := 1 To Len(aDados) // Para i de 1 até o tamanho do vetor aDados
+        MsgInfo("Nome: " + aDados[i,1] + Chr(13) + ; // Chr(13) é o mesmo que o Enter
+                "Idade: " + cValToChar(aDados[i,2])+chr(13)+; // cValToChar converte o valor para string
+                "Nascimento: " + aDados[i,3]+chr(13)+; // Mostra a data de nascimento
+                "Cidade: " + aDados[i,4]) // Mostra a cidade
+    Next i // Próximo
+
+Return 
 
 
